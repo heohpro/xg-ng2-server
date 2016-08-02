@@ -1,0 +1,10 @@
+HELLO WORLD
+
+<script src="socket.io.js"></script>
+<script>
+    var socket = io('http://localhost:1337');
+    socket.on('news', function (data) {
+        console.log(data);
+        socket.emit('event', { my: 'data' });
+    });
+</script>

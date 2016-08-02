@@ -1,0 +1,48 @@
+{
+  "name": "xg-ng2-server",
+  "version": "1.0.0",
+  "description": "create a server for mock data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hexiaoming/xg-ng2-server.git"
+  },
+  "keywords": [
+    "angular2",
+    "server"
+  ],
+  "author": "heoh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hexiaoming/xg-ng2-server/issues"
+  },
+  "engine": {
+    "node": ">=0.12.7"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "koa": "^1.2.0",
+    "koa-body": "^1.4.0",
+    "koa-liveload": "0.0.2",
+    "koa-router": "^5.4.0",
+    "koa-session": "^3.3.1",
+    "koa-static": "^2.0.0",
+    "node-notifier": "^4.6.0",
+    "path": "^0.12.7",
+    "socket.io": "^1.4.8"
+  },
+  "homepage": "https://github.com/hexiaoming/xg-ng2-server#readme",
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.0.14",
+    "babel-plugin-transform-object-assign": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-without-regenerator": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "koa-livereload": "^0.2.0"
+  }
+}
